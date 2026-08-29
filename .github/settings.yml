@@ -9,7 +9,7 @@ repository:
     controlled test harness to demonstrate the iOS App Attest vs. Play Integrity
     asymmetry.
 
-  private: true
+  private: false
 
   topics: ios, jailbreak-detection, app-attest, responsible-disclosure, radar, theos, ellekit
 
