@@ -1,0 +1,11 @@
+Package: xyz.regulad.radarsdkfraudshim
+Replaces: xyz.regulad.radarsdkfrauddefeat
+Provides: xyz.regulad.radarsdkfrauddefeat
+Name: RadarSDKFraudShim
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: PoC that overrides RadarSDKFraud isJailbroken() in a controlled test harness to demonstrate the iOS App Attest vs. Play Integrity asymmetry.
+Maintainer: regulad
+Author: regulad
+Section: Tweaks
+Depends: ellekit

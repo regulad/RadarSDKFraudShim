@@ -1,0 +1,7 @@
+# Theos build output
+.theos/
+packages/
+*.deb
+
+# macOS / editor cruft
+.DS_Store

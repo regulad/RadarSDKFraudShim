@@ -1,0 +1,27 @@
+# Repository configuration for the Probot "Settings" GitHub App
+# (https://github.com/apps/settings). The app applies this file on push to the
+# default branch. 
+
+repository:
+  name: RadarSDKFraudShim
+  description: >-
+    PoC that overrides RadarSDKFraud isJailbroken() in a
+    controlled test harness to demonstrate the iOS App Attest vs. Play Integrity
+    asymmetry.
+
+  private: true
+
+  topics: ios, jailbreak-detection, app-attest, responsible-disclosure, radar, theos, ellekit
+
+  # features
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  has_downloads: false
+
+  # merge behavior
+  default_branch: main
+  allow_squash_merge: true
+  allow_merge_commit: false
+  allow_rebase_merge: true
+  delete_branch_on_merge: true
