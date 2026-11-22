@@ -6,9 +6,8 @@ _extends: .github
 repository:
   name: RadarSDKFraudShim
   description: >-
-    PoC that overrides RadarSDKFraud isJailbroken() in a
-    controlled test harness to demonstrate the iOS App Attest vs. Play Integrity
-    asymmetry.
+    PoC overriding RadarSDKFraud's isJailbroken() to show the iOS App Attest
+    vs. Play Integrity asymmetry
   homepage: ""
   # Public, as the repository is.
   private: false
